@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwind Basic Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+
+<body>
+    <header class="text-gray-600 body-font bg-orange-50">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class="h-12 w-12" src="icons/nike-logo.png" alt="">
+                <span class="ml-3 text-xl font-bold">Nike React</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 font-medium">Home</a>
+                <a class="mr-5 hover:text-gray-900 font-medium">Product</a>
+                <a class="mr-5 hover:text-gray-900 font-medium">About Us</a>
+                <a class="mr-5 hover:text-gray-900 font-medium">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="text-gray-600 body-font bg-orange-50">
+        <div class="container mx-auto flex py-24 md:flex-row flex-col items-center lg:-mt-32 -mt-14">
+            <div class="lg:max-w-lg lg:w-9/12 md:w-1/2 w-5/6 mb-10 md:mb-0 ms-10">
+                <img class="object-cover object-center rounded" alt="hero" src="images/Group 33092.png">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-orange-600">NIKE REACT
+                    <br class="hidden lg:inline-block"><span>INFINITY RUN 2</span>
+                </h1>
+                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+                    plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken
+                    authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  casual shoes   -->
+    <section class="m-10">
+        <h2 class="text-4xl uppercase font-semibold">casual shoes</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- shoe 1 -->
+            <div class="p-4 shadow-md rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/Daco_1703273 1.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold mt-2">Nike Shoe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+            <!-- shoe 1 -->
+            <div class="p-4 shadow-md rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/image 5.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold mt-2">Nike Airmax pro</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+            <div class="p-4 shadow-md rounded-xl">
+                <div class="p-5 bg-slate-100 rounded-xl">
+                    <img src="images/pngegg 1.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold mt-2">Nike Power</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  formal shoe   -->
+    <section class="m-10">
+        <h2 class="text-4xl uppercase font-semibold">formal shoe</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            <!-- shoe 1 -->
+            <div class="p-4 shadow-md rounded-xl">
+                <div class="p-5 rounded-xl">
+                    <img src="images/Mask Group.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold">Prestige High-Cut Leather </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+            <!-- shoe 2 -->
+            <div class="p-4 shadow-md rounded-lg">
+                <div class="p-5 rounded-xl">
+                    <img src="images/Rectangle 38.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold">Slip-On Formal Shoe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+            <!-- shoe 3 -->
+            <div class="p-4 shadow-md rounded-xl">
+                <div class="p-5 rounded-xl">
+                    <img src="images/Rectangle 39.png" alt="">
+                </div>
+                <h3 class="text-2xl font-semibold">Slip-On Formal Shoe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem commodi tempore sit!</p>
+                <div class="flex justify-between mt-7">
+                    <h3 class="text-4xl font-bold text-orange-500">$235</h3>
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-gray-600 body-font flex lg:flex-row flex-col items-center justify-center my-20 gap-20">
+        <div class="mx-auto md:max-w-fit">
+            <div class="flex items-center mb-3 border py-3 px-9 shadow">
+                <img class="w-12 h-12 me-4" src="icons/image 12.png" alt="">
+                <div>
+                    <h3 class="font-medium">Find The Perfect Fit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Iste, sed.</p>
+                </div>
+            </div>
+            <div class="flex items-center mb-3 border py-3 px-9 shadow">
+                <img class="w-12 h-12 me-4" src="icons/image 13.png" alt="">
+                <div>
+                    <h3 class="font-medium">Free Exchanges</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Iste, sed.</p>
+                </div>
+            </div>
+            <div class="flex items-center border py-3 px-9 shadow">
+                <img class="w-12 h-12 me-4" src="icons/image 14.png" alt="">
+                <div>
+                    <h3 class="font-medium">Contact Our Seller</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Iste, sed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 me-20 sm:ms-16 lg:mt-0 mt-10 ">
+            <img class="object-cover object-center rounded" alt="hero" src="icons/XMLID 1.png">
+        </div>
+    </section>
+
+</body>
+
+</html>
